@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/NoteTaker-App/static/css/main.b13dff47.chunk.css",
+    "main.js": "/NoteTaker-App/static/js/main.4063551c.chunk.js",
+    "main.js.map": "/NoteTaker-App/static/js/main.4063551c.chunk.js.map",
+    "runtime-main.js": "/NoteTaker-App/static/js/runtime-main.176c37c2.js",
+    "runtime-main.js.map": "/NoteTaker-App/static/js/runtime-main.176c37c2.js.map",
+    "static/js/2.8a0b2016.chunk.js": "/NoteTaker-App/static/js/2.8a0b2016.chunk.js",
+    "static/js/2.8a0b2016.chunk.js.map": "/NoteTaker-App/static/js/2.8a0b2016.chunk.js.map",
+    "index.html": "/NoteTaker-App/index.html",
+    "static/css/main.b13dff47.chunk.css.map": "/NoteTaker-App/static/css/main.b13dff47.chunk.css.map",
+    "static/js/2.8a0b2016.chunk.js.LICENSE.txt": "/NoteTaker-App/static/js/2.8a0b2016.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.176c37c2.js",
+    "static/js/2.8a0b2016.chunk.js",
+    "static/css/main.b13dff47.chunk.css",
+    "static/js/main.4063551c.chunk.js"
+  ]
+}
