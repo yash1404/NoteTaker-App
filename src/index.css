@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width:1100px;
+margin:0 auto;
+padding:10px;
+}
+.note-list{
+display:grid;
+grid-gap:10px;
+grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+
+}
+.note.newone{
+  background-color:#6bbae7;
+  color:black;
+}
+.note.newone textarea{
+  border:none;
+  resize:none;
+  background:transparent;
+  outline:none;
+  font-size:1rem;
+
+
+}
+.note.newone textarea::placeholder{
+  color:black;
+}
+.wordsremain{
+font-size:1rem;
+font-weight:700;
+color:#363636;
+}
+.save{
+  background-color:black;
+  padding:5px 10px;
+  border-radius:15px;
+  color:white;
+  cursor:pointer;
+}
+.save:hover{
+  background-color:white;
+  color:black;
+}
+.note{
+  background-color:#bb0a21;
+  padding:2rem;
+  color:white;
+  min-height:200px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  border-radius:10px;
+  white-space: pre-wrap;
+
+  
+}
+.footer-sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.delete-icon{
+  cursor:pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* serach style */
+.search{
+  background-color:#1d1c1c;
+  border-radius:10px;
+  padding:10px;
+  display:flex;
+  align-items: center;
+  margin-bottom:20px;
+}
+.search input{
+  background:transparent;
+  border:none;
+  outline:none;
+  color:white;
+}
+.search input::placeholder{
+  color:white;
+}
+.search-icon{
+  color:white;
+}
+.head{
+  text-align:center;
+  font-size:1.5rem;
+  margin-bottom:10px;
+
 }
